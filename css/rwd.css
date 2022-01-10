@@ -112,6 +112,20 @@
     }
 }
 
+@media screen and (max-width:420px)
+{
+    section
+    {
+        height: 240vh;
+    }
+
+    .bg
+    {
+        height: 25vh;
+    }    
+}
+
+
 
 @media screen and (max-width:420px)
 {
@@ -130,7 +144,7 @@
     {
         height: 240vh;
     }
-    
+
     .main
     {
         padding: 0 1rem;
@@ -138,7 +152,7 @@
 
     .bg
     {
-        height: 30vh;
+        height: 25vh;
     }    
 
     .bigImg
@@ -195,7 +209,7 @@
 {
     .bg
     {
-        height: 30vh;
+        height: 25vh;
     }    
 }
 
