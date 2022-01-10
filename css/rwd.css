@@ -3,12 +3,107 @@
    
 }
 
-@media screen and (max-width:680px)
-{
+@media screen and (max-width:1440px)
+{ 
+    section
+    {
+        height : 220vh;
+    }
    
 }
 
-@media screen and (max-width:375px)
+@media screen and (max-width:900px)
+{ 
+    section
+    {
+        height : 450vh;
+    }
+
+    .topArea
+    {
+        height : 30vh
+    }
+}
+
+@media screen and (max-width:830px)
+{ 
+    section
+    {
+        height : 500vh;
+    }
+
+    .topArea
+    {
+        height : 30vh
+    }
+}
+
+@media screen and (max-width:428px)
+{
+    section
+    {
+        height : 265vh;
+    }
+
+    .bg
+    {
+        height: 26vh;
+        padding: 0.75rem 0;
+    }
+
+    .bigImg
+    {
+        margin: 0 auto 0;
+    }
+
+    .blcak-box p
+    {
+        font-size: 0.95rem;
+    }
+
+    .topArea
+    {
+        display:block;
+        height : 26vh
+    }
+
+    .leftBox
+    {
+        width : 100%;
+        height: 50%;
+    }
+
+    .bigName 
+    {
+       font-size: 1.8rem;
+    }
+
+    .text 
+    {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    }
+
+    .rightBox
+    {
+        width:100%
+    }
+
+    .content
+    {
+        margin-top:2rem;
+    }
+
+    .block
+    {
+        margin: 0;
+        width: 100%;
+        height: 50vh
+    }
+}
+
+@media screen and (max-width:414px)
 {
     section
     {
@@ -17,7 +112,73 @@
 
     .bg
     {
-        height: 28vh;
+        height: 34vh;
+        padding: 0.75rem 0;
+    }
+
+    .bigImg
+    {
+        margin: 0 auto 0;
+    }
+
+    .blcak-box p
+    {
+        font-size: 0.95rem;
+    }
+
+    .topArea
+    {
+        display:block;
+        height : 35vh
+    }
+
+    .leftBox
+    {
+        width : 100%;
+        height: 50%;
+    }
+
+    .bigName 
+    {
+       font-size: 1.8rem;
+    }
+
+    .text 
+    {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    }
+
+    .rightBox
+    {
+        width:100%
+    }
+
+    .content
+    {
+        margin-top:2rem;
+    }
+
+    .block
+    {
+        margin: 0;
+        width: 100%;
+        height: 60vh
+    }
+}
+
+
+@media screen and (max-width:375px)
+{
+    section
+    {
+        height : 340vh;
+    }
+
+    .bg
+    {
+        height: 30vh;
         padding: 0.75rem 0;
     }
 
@@ -69,10 +230,9 @@
     {
         margin: 0;
         width: 100%;
-        height: 55vh
+        height: 62vh
     }
 
-    
 }
 
 
