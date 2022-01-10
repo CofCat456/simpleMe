@@ -1,3 +1,14 @@
+@media screen and (max-width:1024px)
+{
+    .bg
+    {
+        height: 23vh;
+    }    
+}
+
+
+
+
 @media screen and (max-width:768px)
 {
     section
@@ -176,6 +187,23 @@
         height: 11vh;
     }
 }
+
+@media screen and (max-width:375px)
+{
+    .bg
+    {
+        height: 25vh;
+    }    
+}
+
+@media screen and (max-width:360px)
+{
+    .bg
+    {
+        height: 30vh;
+    }    
+}
+
 
 
 
