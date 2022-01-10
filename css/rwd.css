@@ -78,6 +78,7 @@
     {
         height: 25vh;
         margin: 0%;
+        display: block;
     }
     
     .leftBox
