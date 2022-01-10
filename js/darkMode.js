@@ -87,11 +87,11 @@ darkMode.addEventListener('click', () => {
 
     if(toggle === true)
     {
-        document.querySelector('.bigImg').src = "/picture/004.jpg"
+        document.querySelector('.bigImg').src = "picture/004.jpg"
     }
     else if(toggle === false)
     {
-        document.querySelector('.bigImg').src = "/picture/003.jpg"
+        document.querySelector('.bigImg').src = "picture/003.jpg"
     }
 })
 
