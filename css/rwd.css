@@ -13,7 +13,7 @@
 {
     section
     {
-        height: 180vh;
+        height: 240vh;
     }
 
     .rightBox
@@ -63,11 +63,6 @@
 
 @media screen and (max-width:480px)
 {
-    section
-    {
-        height: 225vh;
-    }
-
     .bg
     {
         height: 30vh;
@@ -82,11 +77,6 @@
     .blcak-box
     {
         height: 6vh;
-    }
-
-    .blcak-box p
-    {
-        font-size: 0.2rem;
     }
     
     .topArea
@@ -140,7 +130,7 @@
     {
         height: 240vh;
     }
-
+    
     .main
     {
         padding: 0 1rem;
@@ -165,6 +155,11 @@
         font-size : 1.2rem;
         padding: 0.75rem;
         margin-bottom: 1.5rem;
+    }
+
+    .blcak-box p
+    {
+        font-size: 1rem;
     }
 
     .topArea
