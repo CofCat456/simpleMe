@@ -48,7 +48,8 @@ darkMode.addEventListener('click', () => {
 
     .add({
         targets : ".blcak-box",
-        backgroundColor : toggle ? "rgba(255, 255, 255, 0.08)" : "rgba(255, 255, 255, 0.36);"
+        backgroundColor : toggle ? "rgb(255, 255, 255, 0.08)" : "rgb(255, 255, 255, 0.2)"
+        
     })
 
     .add({
