@@ -16,11 +16,6 @@
     width: 100%;
   }
 
-  section
-  {
-    height: 190vh;
-  }
-
   a, p, h1
   {
     font-family: 'Noto Sans TC','Roboto Mono', serif;
@@ -59,7 +54,7 @@
   {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 50%;
     margin: 0 auto 0rem;
     padding: 0.5rem;
   }
@@ -67,7 +62,7 @@
   .heaDerLeft
   {
       display: flex;
-      width: 50%;
+      width: 90%;
   }
 
   .logo
@@ -118,18 +113,19 @@
     cursor: pointer;
   }
 
-  .portFolio
+  .aboutme
   {
     color: white;
     padding: 0 0.5rem 0 1rem;
   }
 
-  .portFolio:hover
+  .contactme
   {
     color: white;
+    padding: 0 0.5rem 0 1rem;
   }
 
-  .about
+  .portFolio
   {
     color: white;
     padding: 0 0.5rem 0 1rem;
@@ -155,7 +151,7 @@
 
   .heaDerRight
   {
-      width: 50%;
+      width: 10%;
       display: flex;
       
   }

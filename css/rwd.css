@@ -1,8 +1,8 @@
-@media screen and (max-width: 1600px)
+@media screen and (max-width: 1700px)
 {
-    section
+    .header a p
     {
-        height: 230vh;
+      font-size: 1rem;
     }
 }
 
@@ -10,19 +10,19 @@
 
 @media screen and (max-width:1440px)
 { 
-    section
+    
+}
+
+@media screen and (max-width:1060px)
+{ 
+    .header a p
     {
-        height : 220vh;
+      font-size: 0.8rem;
     }
 }
 
 @media screen and (max-width:900px)
 { 
-    section
-    {
-        height : 265vh;
-    }
-
     .bg
     {
         height: 35vh;
@@ -88,11 +88,6 @@
 
 @media screen and (max-width:428px)
 {
-    section
-    {
-        height : 270vh;
-    }
-
     .bg
     {
         height: 26vh;
@@ -153,11 +148,6 @@
 
 @media screen and (max-width:414px)
 {
-    section
-    {
-        height : 320vh;
-    }
-
     .bg
     {
         height: 31vh;
@@ -218,11 +208,6 @@
 
 @media screen and (max-width:390px)
 {
-    section
-    {
-        height : 300vh;
-    }
-
     .bg
     {
         height: 26vh;
@@ -284,11 +269,6 @@
 
 @media screen and (max-width:375px)
 {
-    section
-    {
-        height : 350vh;
-    }
-
     .bg
     {
         height: 32vh;
@@ -350,11 +330,6 @@
 
 @media screen and (max-width:360px)
 {
-    section
-    {
-        height : 320vh;
-    }
-
     .bg
     {
         height: 27vh;
@@ -417,11 +392,6 @@
 
 @media screen and (max-width:320px)
 {
-    section
-    {
-        height : 250vh;
-    }
-
     .bg
     {
         height: 18vh;
