@@ -77,6 +77,26 @@ darkMode.addEventListener('click', () => {
         color : toggle ? "rgb(255,255,255,.4)" : "rgb(0, 0, 0,.8)" 
     })
 
+    .add({
+        targets : ".hide-list",
+        backgroundColor : toggle ? "rgb(47,55,72)" : "rgb(255,255,255, .8)"
+    })
+
+    .add({
+        targets : ".hide-list p",
+        color : toggle ? "rgb(255, 255, 255)" : "rgb(0, 0, 0, .8)"
+    })
+
+    .add({
+        targets : ".header-menu-toggle",
+        backgroundColor : toggle ? "rgb(255, 255, 255, .16)" : "rgb(255, 255, 255, .3)"
+    })
+
+    .add({
+        targets : ".humburger-icon",
+        color : toggle ? "rgb(0, 0, 0)" : "rgb(255, 255, 255)"
+    })
+
     if(!toggle)
     {
         toggle = true

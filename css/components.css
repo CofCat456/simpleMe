@@ -54,7 +54,8 @@
   {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    max-width: 768px;
     margin: 0 auto 0rem;
     padding: 0.5rem;
   }
@@ -62,13 +63,48 @@
   .heaDerLeft
   {
       display: flex;
-      width: 90%;
+      width: 60%;
   }
 
   .logo
   {
     padding-top: 0.2rem;
     padding-right: 4rem;
+  }
+
+  .hide
+  {
+    position: absolute;
+    margin: 0;
+    inset: 0 0 auto auto;
+    transform: translate(-8px, 56px);
+  }
+
+  .hide-list
+  {
+    background: #2D3748;
+    box-shadow: rgba(0, 0, 0, 0.1)0px 0px 0px 1px,rgba(0, 0, 0, 0.2)0px 5px 10px,rgba(0, 0, 0, 0.4)0px 5px 40px;
+    min-width: 14rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.4rem;
+  }
+
+  .aboutmeHide:hover, .contactmeHide:hover,  .portFolioHide:hover
+  {
+    border: 1px solid rgb(9, 175, 226);
+    text-decoration: underline;
+  }
+
+  .aboutmeHide, .contactmeHide,  .portFolioHide
+  {
+    color: white;
+    padding: 0 0.5rem 0 1rem;
+  }
+
+  .hideBtn
+  {
+    visibility: hidden;
   }
 
   .title
@@ -151,17 +187,9 @@
 
   .heaDerRight
   {
-      width: 10%;
+      width: 40%;
       display: flex;
-      
-  }
-
-  .darkMode
-  {
-     width: 100%; 
-     display: flex;
-     flex-direction: row-reverse;  
-     width: 100%;
+      flex-direction: row-reverse;  
   }
 
   .darkmodeBtn
@@ -169,11 +197,11 @@
       background-color: #FBD380;
       border-style: none;
       padding: rem;
-      width: 40px;
-      height: 40px;
+      min-width: 2.5rem;
+      height: 2.5rem;
       border-radius: 5px;
   }
-  
+
   .area
   {
     width: 100%;
@@ -198,5 +226,4 @@
     opacity: .4;
     text-align: center;
     margin: 1rem;
-    
   }

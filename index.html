@@ -31,11 +31,12 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/work.css">    
     <link rel="stylesheet" href="css/rwd.css"> 
+    <link rel="stylesheet" href="css/hamburger.css">
     
    
-    <nav class="top">
-        <div class="top-min">
-            <div class="heaDerLeft">
+    <header>
+        <nav class="top">
+            <div class="top-min">
                 <div class="logo">
                     <h1 class="title">
                         <a class="home-index" href="https://cofcat456.github.io/simple-me/">
@@ -46,32 +47,45 @@
                         </a>
                     </h1>
                 </div>
-
-                <div class="header">
-                    <a href="#section1"><p class="aboutme">關於我</p></a>
-                    <a href="#section2"><p class="contactme">聯繫我</p></a>
-                    <a href="#section3"><p class="portFolio">作品集</p></a>
+                <div class="heaDerLeft">
+                    <div class="header">
+                        <a href="#section1"><p class="aboutme">關於我</p></a>
+                        <a href="#section2"><p class="contactme">聯繫我</p></a>
+                        <a href="#section3"><p class="portFolio">作品集</p></a>
+                    </div>
+                </div>
+                <div class="heaDerRight">
+                    <div class="humburger">
+                        <button class="header-menu-toggle">
+                            <svg viewBox="0 0 24 24" focusable="false" class="humburger-icon" aria-hidden="true"><path fill="currentColor" d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"></path></svg>
+                        </button>
+                        <div id="hideList" class="hide hideBtn">
+                            <div class="hide-list">
+                                <a href="#section1"><p class="aboutmeHide paddingP">關於我</p></a>
+                                <a href="#section2"><p class="contactmeHide paddingP">聯繫我</p></a>
+                                <a href="#section3"><p class="portFolioHide paddingP">作品集</p></a>
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="darkMode">
+                        <button class="darkmodeBtn dark">
+                            <svg 
+                             id="darkMode"
+                             width="17" 
+                             height="17"
+                             viewBox="0 0 17 17" 
+                             fill="none" 
+                             xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.50011 2.875L8.5 0M12.5 4.5L14.5 2.5M4 4.5L2.5 2.5M12.5 12.5761L14.5 14.75M14.1251 8.45653H17M2.87513 8.5H0M8.5 17L8.49847 16L8.50013 14.125M12.5746 8.5C12.5746 10.7512 10.7496 12.5761 8.49847 12.5761C6.24731 12.5761 4.42237 10.7512 4.42237 8.5C4.42237 6.24884 6.24731 4.42391 8.49847 4.42391C10.7496 4.42391 12.5746 6.24884 12.5746 8.5ZM2.87513 14.75L3.84962 13.7566L4.60617 13L2.87513 14.75Z" 
+                                class="sun"
+                                stroke="black"/>
+                            </svg>           
+                        </button>
+                    </div>                    
                 </div>
             </div>
-            <div class="heaDerRight">
-                <div class="darkMode">
-                    <button class="darkmodeBtn dark">
-                        <svg 
-                         id="darkMode"
-                         width="17" 
-                         height="17"
-                         viewBox="0 0 17 17" 
-                         fill="none" 
-                         xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8.50011 2.875L8.5 0M12.5 4.5L14.5 2.5M4 4.5L2.5 2.5M12.5 12.5761L14.5 14.75M14.1251 8.45653H17M2.87513 8.5H0M8.5 17L8.49847 16L8.50013 14.125M12.5746 8.5C12.5746 10.7512 10.7496 12.5761 8.49847 12.5761C6.24731 12.5761 4.42237 10.7512 4.42237 8.5C4.42237 6.24884 6.24731 4.42391 8.49847 4.42391C10.7496 4.42391 12.5746 6.24884 12.5746 8.5ZM2.87513 14.75L3.84962 13.7566L4.60617 13L2.87513 14.75Z" 
-                            class="sun"
-                            stroke="black"/>
-                        </svg>           
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <section id="section1">
         <div class="area">
@@ -245,7 +259,9 @@
         </div>
     </footer>
 
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/anime.min.js"></script>
+    <script src="js/hamburger.js"></script>
     <script src="js/darkMode.js"></script>
 </body>
 </html>
