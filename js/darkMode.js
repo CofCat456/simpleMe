@@ -112,7 +112,7 @@ darkMode.addEventListener('click', () => {
     }
     else if(toggle === false)
     {
-        document.querySelector('.bigImg').src = "picture/003.jpg"
+        document.querySelector('.bigImg').src = "picture/006.jpg"
     }
 })
 
