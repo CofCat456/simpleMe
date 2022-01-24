@@ -1,0 +1,91 @@
+.bigName
+{
+    font-size: 1.85rem;
+}
+
+.portfolio
+{
+    line-height: 1.33;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: #525252;
+    text-decoration-thickness: 4px;
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.content
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img
+{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(152, 205, 221, 0.25) 0px 6px 12px -2px, rgba(78, 86, 88, 0.3) 0px 3px 7px -3px;
+}
+
+/*block*/
+.block
+{
+    width: 45%;
+    height: 30vh;
+    display: flex;
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+    justify-content: center;
+}
+
+.project img
+{
+    cursor: pointer;
+}
+
+.proName
+{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0.2rem 0; 
+}
+
+.proText
+{
+    font-size: 0.8rem;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+}
+
+.proImg
+{
+    width: 100%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.proImg:hover
+{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: brightness(60%);
+    margin-bottom: 2rem;
+}
+
+.skil
+{
+    text-align: left;
+    font-size: 0.6rem;
+    font-weight: 900%;
+    color: rgb(255,255,255,.4);
+}
+
+.portfolioLast
+{
+    margin-bottom: 1.5rem;
+}
