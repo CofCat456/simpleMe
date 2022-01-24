@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+
+  body
+  {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 32, 35);
+    color: white;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  a, p, h1
+  {
+    font-family: 'Noto Sans TC','Roboto Mono', serif;
+    text-decoration : none;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    list-style: none;
+  }
+
+  .main
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60ch;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .top
+  {
+    width: 100%;
+    background-color: rgb(32, 32, 35, .5);
+    display: flex;
+    margin-bottom: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000000000;
+  }
+
+  .top-min
+  {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto 0rem;
+    padding: 0.5rem;
+  }
+
+  .heaDerLeft
+  {
+      display: flex;
+      width: 60%;
+  }
+
+  .logo
+  {
+    padding-top: 0.2rem;
+    padding-right: 4rem;
+  }
+
+  .hide
+  {
+    position: absolute;
+    margin: 0;
+    inset: 0 0 auto auto;
+    transform: translate(-8px, 56px);
+  }
+
+  .hide-list
+  {
+    background: #2D3748;
+    box-shadow: rgba(0, 0, 0, 0.1)0px 0px 0px 1px,rgba(0, 0, 0, 0.2)0px 5px 10px,rgba(0, 0, 0, 0.4)0px 5px 40px;
+    min-width: 14rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.4rem;
+  }
+
+  .aboutmeHide:hover, .contactmeHide:hover,  .portFolioHide:hover
+  {
+    border: 1px solid rgb(9, 175, 226);
+    text-decoration: underline;
+  }
+
+  .aboutmeHide, .contactmeHide,  .portFolioHide
+  {
+    color: white;
+    padding: 0 0.5rem 0 1rem;
+  }
+
+  .hideBtn
+  {
+    visibility: hidden;
+  }
+
+  .title
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .home-index
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-cat
+  {
+    color: white;
+    transform: rotate(340deg);
+    transition: 0.5s;
+    margin-bottom: 0.2rem;
+  }
+
+  .img-cat:hover
+  {
+    cursor: pointer;
+    transform: rotate(360deg);
+  }
+
+  .name
+  {
+    color: white;
+    padding: 0 0.2rem;
+  }
+
+  .name:hover
+  {
+    color: white;
+    cursor: pointer;
+  }
+
+  .aboutme
+  {
+    color: white;
+    padding: 0 0.5rem 0 1rem;
+  }
+
+  .contactme
+  {
+    color: white;
+    padding: 0 0.5rem 0 1rem;
+  }
+
+  .portFolio
+  {
+    color: white;
+    padding: 0 0.5rem 0 1rem;
+  }
+
+  .header
+  {
+    display: flex;
+  }
+
+  .header a p
+  {
+    transition: 0.5s;
+  }
+
+  .header a:hover p
+  {
+    color: white;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  .heaDerRight
+  {
+      width: 40%;
+      display: flex;
+      flex-direction: row-reverse;  
+  }
+
+  .darkmodeBtn
+  {
+      background-color: #FBD380;
+      border-style: none;
+      padding: rem;
+      min-width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 5px;
+  }
+
+  .area
+  {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .smArea
+  {
+    width: 100%;
+  }
+
+  .bigFont
+  {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  /*footer*/
+  footer
+  {
+    font-size: 0.8rem;
+    opacity: .4;
+    text-align: center;
+    margin: 1rem;
+  }
